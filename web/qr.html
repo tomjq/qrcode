@@ -1,0 +1,13 @@
+<head>
+<meta http-equiv="content-type",content="text/html;charest=GBK">
+<script src="js/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/qrcode/jquery.qrcode.min.js"></script>
+</head>
+<div style="width:800px;margin:200px auto;text-align:center">
+<div id="qrcode"></div>
+</div>
+<script>
+$(function(){
+   $('#qrcode').qrcode({render:'canvas',text:"http://baidu.com",width:260,height:260});
+});
+</script>
